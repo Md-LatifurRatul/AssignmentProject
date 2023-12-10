@@ -3,25 +3,25 @@ abstract class Role {
 }
 
 class Person implements Role {
-  String name;
-  int age;
-  String address;
-  Person(this.name, this.age, this.address);
+  String _name;
+  int _age;
+  String _address;
+  Person(this._name, this._age, this._address);
   @override
   void displayRole() {
     print("Role: Person");
   }
 
   String getName() {
-    return name;
+    return _name;
   }
 
   int getAge() {
-    return age;
+    return _age;
   }
 
   String getAddress() {
-    return address;
+    return _address;
   }
 }
 
