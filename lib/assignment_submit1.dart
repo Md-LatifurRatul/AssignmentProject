@@ -69,7 +69,6 @@ class Teacher extends Person {
   }
 }
 
-class StudentManagementSystem {}
 
 void main() {
   Student student = Student('John Doe', 20, '123 Main St', 'S001');
